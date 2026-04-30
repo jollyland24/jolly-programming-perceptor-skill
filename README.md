@@ -1,17 +1,14 @@
 # cf-jolly-programming-perceptor-skill
 
-## Installing the skill
-1. Download the skill:
-- Clone repo: `git clone https://github.com/jollyland24/cf-jolly-programming-perceptor-skill.git`
-- Or download the 'skill-programming-preceptor' folder
+## Installing the skill in Claude desktop:
+1. Download the 'skill-programming-preceptor' folder
+2. Zip the 'skill-programming-preceptor' folder
+3. Open Claude.ai > Settings > skills
+4. Click "Upload skill"
+5. Open the zipped file
 
-2. Install in Claude desktop:
-- Zip the 'skill-programming-preceptor' folder
-- Open Claude.ai > Settings > skills
-- Click "Upload skill"
-- Open the zipped file
-
-3. Install in Claude Code
-- Create '~/.claude/skills/' directory
-- Move the skill folder into the directory
-- Verify in Claude Code with '/skills'
+## Installing the skill in Claude Code:
+1. Clone repo: `git clone https://github.com/jollyland24/cf-jolly-programming-perceptor-skill.git`
+2. Create '~/.claude/skills/' directory if it does not exist 
+3. Duplicate the skill folder: 'cp -r  /Users/[user-name]/Documents/GitHub/cf-jolly-programming-perceptor-skill ~/.claude/skills/'
+4. Verify in Claude Code with '/skills'
