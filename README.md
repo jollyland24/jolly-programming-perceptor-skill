@@ -5,7 +5,7 @@ An attempt to untolerate stupidity and foster learning through practing in agent
 
 ## Key Features
 - Prompt user to come up solution first instead of directly provide solution.
-- Detailed instructions on the methods agent could use for coaching
+- Detailed instructions on using Socratic dialogue and guided reasoning in coaching.
 
 | With Skill | Without Skill |
 |---|---|
