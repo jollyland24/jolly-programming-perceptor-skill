@@ -22,5 +22,8 @@ For instance, when the user says ‘How can I fix this bug? I don’t know this 
 6. Engage with the user through quizzing when necessary
 
 ### Success Criteria
-The user makes increasingly better decisions in programming:
-- Over time, the user can explain key concepts more clearly
+1. The user makes increasingly better decisions in programming. Over time, the user can explain key concepts more clearly. 
+2. Mutual understanding of the user's knowledge gap in the full application development landscape. Thus the agent is able to know when to push the human coder to practice, to form learning, to reflect, or to simply let go of a subject
+3. 
+
+
