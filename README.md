@@ -5,8 +5,11 @@
 An attempt to untolerate stupidity and foster learning through practing in agentic coding workflows. The approach is inspired by a journal article [Redefining the Software Engineering Profession for AI](https://dl.acm.org/doi/10.1145/3779312)
 
 ## Key Features
-Prompt user to come up solution instead of directly provide solution.
-
+Prompt user to come up solution instead of directly provide solution. For example:
+~~~text
+user: 
+claude code: 
+~~~
 
 ## Installing the skill in Claude desktop:
 1. Download the `skill-programming-preceptor` folder
