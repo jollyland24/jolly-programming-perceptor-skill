@@ -5,11 +5,13 @@ An attempt to untolerate stupidity and foster learning through practing in agent
 
 ## Key Features
 - Prompt user to come up solution first instead of directly provide solution.
+- Detailed instructions on the methods agent could use for coaching
+
 | With Skill | Without Skill |
 |---|---|
 | ![example-with-skill](./example-with-skill.png) | ![example-without-skill](./example-without-skill.png) |
 
-## To Be Improved
+### To Be Improved
 - User needs to manually trigger the implementation of the skill by selecting or prompting, would be nice if the agent jumps out and say let's learn some new stuff
 - The agent doesn't reallt follow the all phases, it loops through the coaching stuff unless the user try to get out of it
 
