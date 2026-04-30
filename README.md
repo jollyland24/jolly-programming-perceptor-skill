@@ -24,3 +24,6 @@ Prompt user to come up solution first instead of directly provide solution.
 2. Create `~/.claude/skills/` directory if it does not exist 
 3. Duplicate the skill folder: `cp -r  /Users/[user-name]/Documents/GitHub/cf-jolly-programming-perceptor-skill ~/.claude/skills/`
 4. Verify in Claude Code with `/skills`
+
+> **Note:** Installing methods could change with the constant product updates from Anthropic, if you hit issues, ask claude what is the applicable way of installing.
+
