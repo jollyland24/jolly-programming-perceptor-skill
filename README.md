@@ -15,6 +15,7 @@ An attempt to untolerate stupidity and foster learning through practing in agent
 - User needs to manually trigger the implementation of the skill by selecting or prompting, would be nice if the agent jumps out and say let's learn some new stuff
 - The agent doesn't reallt follow the all phases, it loops through the coaching stuff unless the user try to get out of it
 - The agent does not have cross session memory of the learning history, originally it is meant to offer long term coaching which means cross session discussion
+- It says it does not have confluence but it is in the skill file, see [example](./bug-no-confluence.png)
 
 
 ## Installing the skill in Claude desktop:
