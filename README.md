@@ -12,25 +12,23 @@ An attempt to untolerate stupidity and foster learning through practing in agent
 | ![example-with-skill](./example-with-skill.png) | ![example-without-skill](./example-without-skill.png) |
 
 ### To Be Improved
-- User needs to manually trigger the implementation of the skill by selecting or prompting, would be nice if the agent jumps out and say let's learn some new stuff
-- The agent doesn't reallt follow the all phases, it loops through the coaching stuff unless the user try to get out of it
-- The agent does not have cross session memory of the learning history, originally it is meant to offer long term coaching which means cross session discussion
-- It says it does not have confluence but it is in the skill file, see [example](./bug-no-confluence.png)
+- User needs to manually trigger the implementation of the skill by prompting or using the `/` command, would it be also nice if the agent jumps out and say let's learn some new stuff? 
+- The agent doesn't really follow all the phases in the instruction in order, it only goes through the coaching stage unless the user try to get out of it and ask something else
+- The agent does not confirm actively if it saves the memory of the learning history, making human unaware of the shared history
+- It says it does not have confluence access but it is in the skill instruction, see [example](./bug-no-confluence.png)
 
-
-## Installing the skill in Claude desktop:
+## Installing the skill in Claude desktop (will also show in claude code):
 1. Download the `skill-programming-preceptor` folder
 2. Zip the `skill-programming-preceptor` folder
 3. Open Claude.ai > Settings > skills
 4. Click "Upload skill"
 5. Open the zipped file
 
-
 ## Installing the skill in Claude Code:
 1. Clone repo: `git clone https://github.com/jollyland24/cf-jolly-programming-perceptor-skill.git`
-2. Create `~/.claude/skills/` directory if it does not exist 
-3. Duplicate the skill folder: `cp -r  /Users/[user-name]/Documents/GitHub/cf-jolly-programming-perceptor-skill ~/.claude/skills/`
+2. Locate or create `~/.claude/skills/` directory on your machine
+3. Duplicate the skill to the skill directory: `cp -r  /Users/[user-name]/Documents/GitHub/cf-jolly-programming-perceptor-skill ~/.claude/skills/`
 4. Verify in Claude Code with `/skills`
 
-> **Note:** Installing methods could change with the constant product updates from Anthropic, if you hit issues, ask claude what is the applicable way of installing.
+> **Note:** Installing methods could change with the constant product updates from Anthropic, this instruction is based on experience and this [document](https://resources.anthropic.com/hubfs/The-Complete-Guide-to-Building-Skill-for-Claude.pdf) if you hit issues, ask claude what is the applicable way of installing.
 
