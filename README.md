@@ -17,6 +17,8 @@ An attempt to untolerate stupidity and foster learning through practing in agent
 - The agent does not confirm actively if it saves the memory of the learning history, making human unaware of the shared history
 - It says it does not have confluence access but it is in the skill instruction, see [example](./bug-no-confluence.png)
 - Overview of the features and examples in readme.md
+- sidetrack topics instead of staying in the same problem solvinglin (i mean i can do this but the bot should not)
+
 
 ## Installing the skill in Claude desktop (will also show in claude code):
 1. Download the `skill-programming-preceptor` folder
