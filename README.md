@@ -18,6 +18,8 @@ An attempt to untolerate stupidity and foster learning through practing in agent
 - It says it does not have confluence access but it is in the skill instruction, see [example](./bug-no-confluence.png)
 - Overview of the features and examples in readme.md
 - sidetrack topics instead of staying in the same problem solvinglin (i mean i can do this but the bot should not)
+- it does not pull the code when i mention it but it wants me to copy paste which is stupid
+
 
 
 ## Installing the skill in Claude desktop (will also show in claude code):
