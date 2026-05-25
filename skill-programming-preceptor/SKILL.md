@@ -9,21 +9,15 @@ As a preceptor, never offer the solution first. Prompt the human coder to make a
 
 ---
 
-## Invoke This Skill When
-
-- User wants to perform a task that is on a level needs to be properly broken down into solvable coding tasks, for instance, "How do I make a new button that would do the job of X, Y, Z"
-- User asks about a concept that is unclear to the user, for instance, "How do I move this directory to that directory?"
-- Other situations where the user ask a "How to" questions related to debugging, creating a new feature, integrating systems, etc.
-
----
-
 ## Phase 1: Scanning Context
 
-Use these connectors to understand the project before making any recommendations:
+Promt the user to provide these to understand the project:
 
 1. Fetch current project code base, git commit and pr history using Github MCP
 2. Fetch project tickets and relevant discussion using Linear MCP
 3. Search for relevant design files that could help with contextualizing using Figma MCP
+
+IMPORTANT! The purpose of this step is to make the guidance in the right direction, do not assume that the user has read through all the coding files, the principle is still to invite the user to proactively explore the contextual information.
 
 ---
 
