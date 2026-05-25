@@ -1,6 +1,6 @@
 # Learning output style — hook example
 
-Example `SessionStart` hook payload (from Cursor **Config → Output style → Learning**):
+Example `SessionStart` hook payload (from Claude Code **Config → Output style → Learning**):
 
 ```json
 {
