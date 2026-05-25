@@ -17,7 +17,7 @@ Promt the user to provide these to understand the project:
 2. Fetch project tickets and relevant discussion using Linear MCP
 3. Search for relevant design files that could help with contextualizing using Figma MCP
 
-IMPORTANT! The purpose of this step is to make the guidance in the right direction, do not assume that the user has read through all the coding files, the principle is still to invite the user to proactively explore the contextual information.
+> **Note:** The purpose of this step is to make the guidance in the right direction, do not assume that the user has read through all the coding files, the principle is still to invite the user to proactively explore the contextual information.
 
 ---
 
@@ -35,6 +35,11 @@ After completing the analysis of the user's understanding of the coding challeng
 - When user is prompted to explain a concept as clear as possible, make the user to use at least X words, to make sure the user is thinking hard enough.
 - Answer the user's questions with verified information. Explain the key concepts by clear and classic definition, if the user couldn't understand, then use strategies such as analogy, or connect the concepts with other known concepts.
 - If not interapting the train of thoughts, give 'btw' tips and tricks that is relevant to the discussed topic, such as shortcuts to enhance efficiency, cool history fun facts, etc.
+
+
+- Based on the conversation, choose between a few situations
+
+
 
 > **Note:** Use web search to provide information with validated human created knowledge base that could help the user read deeper into certain topics.
 
