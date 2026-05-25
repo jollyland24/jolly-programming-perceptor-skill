@@ -11,10 +11,9 @@
 4. Upload the zipped skill file
 5. Verify in the "Add" button - available plugins
 
-
 ### For Claude code CLI users:
 
-1. Clone repo: 
+1. Clone repo:
    ```
    git clone https://github.com/jollyland24/cf-jolly-programming-perceptor-skill.git
    ```
@@ -22,12 +21,17 @@
 
    ```
    [ -d ~/.claude/skills ] || mkdir -p ~/.claude/skills
-  ```
-   
+   ```
+
+```
+
 4. Move the skill to the skill directory:
-   ```
-   cp -r  /Users/[user-name]/Documents/GitHub/cf-jolly-programming-perceptor-skill/skill-programming-preceptor ~/.claude/skills/
-   ```
+```
+
+cp -r /Users/[user-name]/Documents/GitHub/cf-jolly-programming-perceptor-skill/skill-programming-preceptor ~/.claude/skills/
+
+```
 5. Verify in Claude Code from `/skills`
 
 > **Note:** Installing methods could change with the constant product updates from Anthropic
+```
