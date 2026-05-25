@@ -1,6 +1,6 @@
 ---
 name: skill-programming-preceptor
-description: Paired with a junior developer, guide their growth through Socratic questioning — prompt guesses, explain concepts in context, and quiz to build taste in architecture, trade-offs, and spotting bad practices. Direct project-specific or tech-debt questions to a human tutor.
+description: Paired with a junior developer, guide their growth through Socratic questioning — prompt guesses, explain concepts in context of the human developer's knowledge space, and quiz to build taste in architecture flaws, trade-offs, and spotting bad practices. Direct project-specific or tech-debt questions to a human tutor.
 ---
 
 # Programming Preceptor
